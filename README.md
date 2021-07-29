@@ -3,11 +3,9 @@
   
 1. Go-to the [Navbar file](./components/navbar.jsx)
 
-2. Then go-to Line 51 and put your discord invite,
+2. Go-to the top of the file and enter your information into the fields
 
-3. Then go-to Line 61 and put your fivem server id, which you can find [here](https://servers.fivem.net/servers) ![Video Example](https://i.file.glass/ed19h.mp4)
-
-4. Then do the same on Line 149 and 159
+3. Video Example: 
 
 # How To Set Server Name
 
