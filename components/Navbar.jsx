@@ -17,18 +17,19 @@ export const Navbar = () => {
             {name}
           </span></div> 
         </Link>
-        <ul className="flex items-center hidden space-x-8 lg:flex">
-          <li>
+        <ul className=" items-center hidden space-x-8 lg:flex">
+          <li className="text-white">
+            
           <Link
               href="applications"
               aria-label="Applications"
               title="Applications"
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              className="font-medium tracking-wide transition-colors duration-200 hover:text-teal-accent-400"
             >
               Applications
             </Link>
           </li>
-          <li>
+          <li className="text-white">
           <Link
               href="about"
               aria-label="About us"
@@ -38,7 +39,7 @@ export const Navbar = () => {
               About us
             </Link>
           </li>
-          <li>
+          <li className="text-white">
             <Link
               href="departments"
               aria-label="Departments"
@@ -48,7 +49,7 @@ export const Navbar = () => {
               Departments
             </Link>
           </li>
-          <li>
+          <li className="text-white">
             <Link
               href={discord}
               aria-label="discord"
@@ -58,7 +59,7 @@ export const Navbar = () => {
               Discord
             </Link>
           </li>
-          <li>
+          <li className="text-white">
             <Link
               href={fivem}
               aria-label="Connect"
@@ -116,7 +117,7 @@ export const Navbar = () => {
                 </div>
                 <nav>
                   <ul className="space-y-4">
-                    <li>
+                    <li className="text-white">
                       <Link
                         href="applications"
                         aria-label="Applications"
@@ -126,7 +127,7 @@ export const Navbar = () => {
                         Applications
                       </Link>
                     </li>
-                    <li>
+                    <li className="text-white">
                       <Link
                         href="about"
                         aria-label="About us"
@@ -136,7 +137,7 @@ export const Navbar = () => {
                         About us
                       </Link>
                     </li>
-                    <li>
+                    <li className="text-white">
                       <Link
                         href="departments"
                         aria-label="Departments"
@@ -146,7 +147,7 @@ export const Navbar = () => {
                         Departments
                       </Link>
                     </li>
-                    <li>
+                    <li className="text-white">
                       <Link
                         href={discord}
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -156,7 +157,7 @@ export const Navbar = () => {
                         Discord
                       </Link>
                     </li>
-                    <li>
+                    <li className="text-white">
                       <Link
                         href={fivem}
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
