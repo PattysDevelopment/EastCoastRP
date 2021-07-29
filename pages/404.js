@@ -12,7 +12,7 @@ import Image from 'next/image'
       <div>
 
 <div className="bg-indigo-900 relative overflow-hidden h-screen">
-    <Image src="https://www.telegraph.co.uk/content/dam/health-fitness/2018/08/29/TELEMMGLPICT000119521163_trans_NvBQzQNjv4BqBDCnIxthzPLaVuHdTEmpqJ73dq_ohU5dG7pZOyOIh3g.jpeg" className="absolute h-full w-full object-cover"/>
+    <Image src="https://i.iodine.gg/68d84" className="absolute h-full w-full object-cover"/>
     <div className="inset-0 bg-black opacity-25 absolute">
     </div>
     <div className="container mx-auto px-6 md:px-12 relative z-10 flex items-center py-32 xl:py-40">
