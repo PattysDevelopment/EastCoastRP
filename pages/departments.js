@@ -20,14 +20,14 @@ export default function Home() {
                   <div className="p-4 lg:p-8 rounded-xl bg-blueGray-50">
                     <Image className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://hamy.fileglass.com/e9886.jpeg" width="720" height="400" alt="blog"/>
                     <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-black title-font"> Los Santos Police Department </h1>
-                    <p className="mx-auto text-base font-medium leading-relaxed text-blueGray-700 "> The Police Department’s goal is to protect and maintain Los Santos' high quality of life and prevent crime. The department is responsible for enhancing overall community safety and safeguarding the rights of individuals. The Police Department is organized into specialized units and teams, staffed by both full-time, and volunteer officers to manage calls for service and facilitate problem-solving throughout the community.  </p>
+                    <p className="mx-auto text-base font-medium leading-relaxed text-blueGray-700 "> The Police Department’s goal is to protect and maintain Los Santos high quality of life and prevent crime. The department is responsible for enhancing overall community safety and safeguarding the rights of individuals. The Police Department is organized into specialized units and teams, staffed by both full-time, and volunteer officers to manage calls for service and facilitate problem-solving throughout the community.  </p>
                     <a href="#" className="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-black " title="read more"> Read More » </a>
                   </div>
                 </div>
                 <div className="w-full p-6 mx-auto lg:w-1/3">
                   <div className="p-4 lg:p-8 rounded-xl bg-blueGray-50">
                     <Image className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://hamy.fileglass.com/d3e22.jpeg" width="720" height="400" alt="blog"/>
-                    <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-black title-font"> Blaine County Sherrif's Office </h1>
+                    <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-black title-font"> Blaine County Sherrif{"'"}s Office </h1>
                     <p className="mx-auto text-base font-medium leading-relaxed text-blueGray-700 ">The Blaine County Sheriff’s Office is committed to protect the lives, property and rights of all people, to maintain order and to enforce the law. The Blaine County Sheriff’s Office will strive to accomplish this mission by setting goals and objectives and practicing the core values of the Office. It is our mission to improve and maintain the quality of life we enjoy and to ensure that our county is a safe place to live, work and visit.</p>
                     <a href="#" className="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-black " title="read more"> Read More » </a>
                   </div>

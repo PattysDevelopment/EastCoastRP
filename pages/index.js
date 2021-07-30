@@ -20,7 +20,7 @@ export default function Home() {
         <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center lg:space-x-6">
             <div className="w-full lg:w-1/2">
                 <div className="lg:max-w-lg">
-                    <h1 className="text-2xl font-medium tracking-wide text-gray-800 dark:text-white lg:text-4xl">The Roleplay server you've been looking for.</h1>
+                    <h1 className="text-2xl font-medium tracking-wide text-gray-800 dark:text-white lg:text-4xl">The Roleplay server you{"'"}ve been looking for.</h1>
                     <p className="mt-2 text-gray-600 dark:text-gray-300">Get ready for the best experience of your life 😎</p>
                     <div className="grid gap-6 mt-8 sm:grid-cols-2">
                         <div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
