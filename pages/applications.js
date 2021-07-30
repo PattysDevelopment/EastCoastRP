@@ -50,46 +50,62 @@ export default function Home() {
           </svg>
         </div>
         <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-100 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
-            <p className="font-semibold text-gray-900">
+        <Link href="/" passHref>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-800 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-3xl">
+            <p className="font-semibold text-gray-200">
               Apply for LSPD
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          </Link>
+          <Link href="/" passHref>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-800 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for BCSO
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          </Link>
+          <Link href="/" passHref>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-800 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for SAFR
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          </Link>
+          <Link href="/" passHref>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-800 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for SAHP
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          </Link>
+          <Link href="/" passHref>
+            <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-800 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for Dispatch
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          </Link>
+          <Link href="/" passHref>
+            <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-800 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for Staff
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          </Link>
+          <Link href="/" passHref>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-800 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for Civilian
             </p>
           </div>
-          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-900 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          </Link>
+          <Link href="/" passHref>
+          <div className="px-10 py-20 text-center transition duration-300 transform bg-gray-800 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for Developer
             </p>
           </div>
+          </Link>
         </div>
       </div>
     </div>
