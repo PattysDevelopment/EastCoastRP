@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
 <div>
-<header className="bg-white dark:bg-gray-800">
+<header className="bg-gray-800">
 
 
         <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center lg:space-x-6">
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
     
             <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-                <Image className="object-cover w-full h-full max-w-2xl rounded-md" src="https://i.iodine.gg/4j9fa.png" width="1050" height="640" alt="picture of the fivem server"></Image>
+                <Image className="object-cover w-full h-full max-w-2xl rounded-md" src="https://hamy.fileglass.com/14i2h.webp" width="1050" height="640" alt="picture of the fivem server"></Image>
             </div>
         </div>
     </header>
