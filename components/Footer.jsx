@@ -1,5 +1,3 @@
-
-/* eslint-disable @next/next/no-html-link-for-pages */
 import getConfig from 'next/config'
 import Link from 'next/link'
 
