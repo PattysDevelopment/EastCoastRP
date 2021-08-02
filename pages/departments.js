@@ -22,7 +22,7 @@ export default function Home() {
                     <Image className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="https://hamy.fileglass.com/16hej.webp" width="720" height="400" alt="blog"/>
                     <h1 className="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-white title-font"> Los Santos Police Department </h1>
                     <p className="mx-auto text-base font-medium leading-relaxed text-gray-100 "> The Police Department’s goal is to protect and maintain Los Santos high quality of life and prevent crime. The department is responsible for enhancing overall community safety and safeguarding the rights of individuals. The Police Department is organized into specialized units and teams, staffed by both full-time, and volunteer officers to manage calls for service and facilitate problem-solving throughout the community.  </p>
-                    <Link href="apps/lspd" className="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-black " title="apply now"> Apply now » </Link>
+                    <Link href="apps/lspd" className="text-blue-600 inline-flex items-center mt-4 font-semibold lg:mb-0 hover:text-black" title="apply now">Apply now » </Link>
                   </div>
                 </div>
                 <div className="w-full p-6 mx-auto lg:w-1/3">

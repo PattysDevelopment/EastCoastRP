@@ -30,7 +30,7 @@ export default function Home() {
                                 <path strokeLinecap="round" strokeLineJoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                             </svg>
 
-                            <span>Quality Roleplay 💪</span>
+                            <span>{`${publicRuntimeConfig.advantageN1}`}</span>
                         </div>
 
                         <div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
@@ -38,7 +38,7 @@ export default function Home() {
                                 <path strokeLinecap="round" strokeLineJoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                             </svg>
 
-                            <span>Serious RP 😊</span>
+                            <span>{`${publicRuntimeConfig.advantageN2}`}</span>
                         </div>
 
                         <div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
@@ -46,7 +46,7 @@ export default function Home() {
                                 <path strokeLinecap="round" strokeLineJoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                             </svg>
 
-                            <span>Active Staff 👷‍♂️</span>
+                            <span>{`${publicRuntimeConfig.advantageN3}`}</span>
                         </div>
 
                         <div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
@@ -54,7 +54,7 @@ export default function Home() {
                                 <path strokeLinecap="round" strokeLineJoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                             </svg>
 
-                            <span>Custom Scripts 📃</span>
+                            <span>{`${publicRuntimeConfig.advantageN4}`}</span>
                         </div>
 
                         <div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
@@ -62,7 +62,7 @@ export default function Home() {
                                 <path strokeLinecap="round" strokeLineJoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                             </svg>
 
-                            <span>Custom Cars 🏎 And EUP</span>
+                            <span>{`${publicRuntimeConfig.advantageN5}`}</span>
                         </div>
 
                         <div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
@@ -70,7 +70,7 @@ export default function Home() {
                                 <path strokeLinecap="round" strokeLineJoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                             </svg>
 
-                            <span>Awesome website 😎</span>
+                            <span>{`${publicRuntimeConfig.advantageN6}`}</span>
                         </div>
                     </div>
                 </div>
