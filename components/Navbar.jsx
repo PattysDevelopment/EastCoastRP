@@ -98,9 +98,6 @@ export const Navbar = () => {
               <div className="p-5 bg-gray-900 border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-
-                  </div>
-                  <div>
                     <button
                       aria-label="Close Menu"
                       title="Close Menu"
