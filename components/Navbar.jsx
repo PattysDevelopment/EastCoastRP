@@ -28,7 +28,7 @@ export const Navbar = () => {
               passHref
             >
               <button className="btn btn-ghost"> 
-              Applications 
+              Apply 
               </button>
             </Link>
           </li>
