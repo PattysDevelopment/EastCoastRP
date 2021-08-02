@@ -144,7 +144,7 @@ export const Navbar = () => {
           </button>
           {isMenuOpen && (
             <div className="absolute top-0 left-0 w-full">
-              <div className="p-10 bg-gray-900 border border-gray-400 rounded shadow-sm">
+              <div className="p-10 bg-gray-300 dark:bg-gray-900 border border-gray-400 rounded shadow-sm">
                 <div className="flex items-center justify-between">
                   <div>
                     <button
@@ -251,13 +251,13 @@ export const Navbar = () => {
                 className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="black"
               > 
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  stroke="white"
+                  stroke="black"
                   d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
                 />
               </svg>
