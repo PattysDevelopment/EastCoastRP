@@ -2,7 +2,7 @@ import Head from 'next/head'
 import getConfig from 'next/config'
 
 const Safr = () => {
-  const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
+  const { publicRuntimeConfig } = getConfig()
     return (
         <div>
       <Head>

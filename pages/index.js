@@ -6,7 +6,7 @@ import getConfig from 'next/config'
 
 
 export default function Home() {
-    const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
+    const { publicRuntimeConfig } = getConfig()
   return (
     <div>
       <Head>
