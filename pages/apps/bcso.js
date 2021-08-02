@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import getConfig from 'next/config'
 
-const bsco = () => {
+const Bsco = () => {
   const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
     return (
         <div>
@@ -18,4 +18,4 @@ const bsco = () => {
     );
 }
  
-export default bsco;
+export default Bsco;

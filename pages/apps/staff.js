@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import getConfig from 'next/config'
 
-const staff = () => {
+const Staff = () => {
   const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
     return (
         <div>
@@ -18,4 +18,4 @@ const staff = () => {
     );
 }
  
-export default staff;
+export default Staff;

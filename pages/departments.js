@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import getConfig from 'next/config'
 
-export default function Home() {
+export default function Departments() {
   const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
   return (
     <div>

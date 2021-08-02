@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import getConfig from 'next/config'
 
-const comms = () => {
+const Comms = () => {
   const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
     return (
         <div>
@@ -18,4 +18,4 @@ const comms = () => {
     );
 }
  
-export default comms;
+export default Comms;

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import getConfig from 'next/config'
 
-const lspd = () => {
+const Lspd = () => {
   const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
     return (
         <div>
@@ -18,4 +18,4 @@ const lspd = () => {
     );
 }
  
-export default lspd;
+export default Lspd;
