@@ -1,6 +1,13 @@
+
+import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 import Image from 'next/image'
   
   const NotFound = () => {
+    const router = useRouter()
+  
+
+  
     return (
       <div>
 

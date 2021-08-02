@@ -1,10 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import getConfig from 'next/config'
 
 
 export default function Home() {
-    const { publicRuntimeConfig } = getConfig()
+    const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
   return (
     <div>
       <Head>
