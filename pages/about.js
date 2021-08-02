@@ -19,7 +19,7 @@ export default function Home() {
   <div className="container px-5 py-24 mx-auto flex flex-col">
     <div className="lg:w-4/6 mx-auto">
       <div className="rounded-lg h-64 overflow-hidden">
-        <Image alt="content" className="object-cover object-center h-full w-full" width="1200" height="400" src={`${publicRuntimeConfig.bannerLink}`}></Image>
+        <Image alt="A banner of the server logo above the about me description" className="object-cover object-center h-full w-full" width="1200" height="400" src={`${publicRuntimeConfig.bannerLink}`}></Image>
       </div>
       <div className="flex flex-col sm:flex-row mt-10">
         <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l text-gray-100 border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
           <p className="leading-relaxed text-lg mb-4">{`${publicRuntimeConfig.serverDescription}`}</p>
           <Link href="applications" passHref>
-          <div className="text-indigo-500 inline-flex items-center">
+          <div className="text-indigo-500 cursor-pointer inline-flex items-center">
           Apply now
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
