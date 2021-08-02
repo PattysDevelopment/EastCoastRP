@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   <div>
     <Head>   
     </Head>
-    <main className="mb-auto h-auto bg-gray-800">
+    <main className="mb-auto h-auto bg-gray-900">
       <Layout>
         <Component {...pageProps} />
       </Layout>

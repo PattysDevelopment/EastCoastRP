@@ -4,7 +4,7 @@ import getConfig from 'next/config'
 import Link from 'next/link'
 
 const Footer = () => {
-  const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
+  const { publicRuntimeConfig } = getConfig()
   return (
 <footer className=" text-gray-400 bg-gray-900 body-font  flex-col  ">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" > 

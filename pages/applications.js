@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import getConfig from 'next/config'
 
 export default function  Applications() {
-  const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
+  const { publicRuntimeConfig } = getConfig()
   return (
 <div className="bg-gray-900">
         <Head>

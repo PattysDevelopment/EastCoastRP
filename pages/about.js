@@ -5,7 +5,7 @@ import Image from 'next/image'
 import getConfig from 'next/config'
 
 export default function About() {
-  const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
+  const { publicRuntimeConfig } = getConfig()
   return (
     <div>
       <Head>
