@@ -1,27 +1,23 @@
-function App() {
-  const toggleMode = () => {
-    if(localStorage.theme === undefined){
-      localStorage.theme = 'dark';
-      console.log("dark set")
-    }
-    localStorage.theme === 'light' ? localStorage.theme = 'dark' : localStorage.theme = 'light';
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.classList.add('dark')
-      console.log("set theme to dark")
-    } else {
-      console.log("set theme to light")
-      document.documentElement.classList.remove('dark')
-    }
-  }
-  return (
-    <div className="App">
-      <div className="flex">
-        <button onClick={toggleMode} className="btn btn-block p-2 text-white rounded ">
-          Dark Mode
-          </button>
-      </div>
-    </div>
+import { useEffect, useState } from "react";
+
+function useDarkMode() {
+  const [theme, setTheme] = useState(
+    typeof window !== "undefined" ? localStorage.theme : "dark"
   );
+  const colorTheme = theme === "dark" ? "light" : "dark";
+
+  useEffect(() => {
+    const root = window.document.documentElement;
+
+    root.classList.remove(colorTheme);
+    root.classList.add(theme);
+
+    if (typeof window !== "undefined") {
+      localStorage.setItem("theme", theme);
+    }
+  }, [theme]);
+
+  return [colorTheme, setTheme];
 }
 
-export default App;
+export default useDarkMode;

@@ -9,7 +9,7 @@ const Footer = () => {
     <Link href="/"className="cursor-pointer flex title-font font-medium items-center md:justify-start justify-center text-white" passHref >
       <span className="cursor-pointer ml-3 text-xl uppercase">{publicRuntimeConfig.fullServerName}</span>
     </Link>
-    <p className="text-sm dark:text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"> Made with ❤ by SaltySea
+    <p className="text-sm dark:text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"> Made with ❤ by SaltySea © 2021
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a href={`${publicRuntimeConfig.facebook}`} className="dark:text-gray-400">

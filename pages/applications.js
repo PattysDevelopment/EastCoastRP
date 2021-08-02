@@ -58,56 +58,56 @@ export default function  Applications() {
         </div>
         <div className="relative grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <Link href="apps/lspd" passHref>  
-          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform transition duration-300 ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-3xl">
+          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className=" font-semibold text-gray-200">
               Apply for LSPD
             </p>
           </div>
           </Link>
           <Link href="apps/bcso" passHref>
-          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform transition duration-300 ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for BCSO
             </p>
           </div>
           </Link>
           <Link href="apps/safr" passHref>
-          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform transition duration-300 ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for SAFR
             </p>
           </div>
           </Link>
           <Link href="apps/sahp" passHref>
-          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform transition duration-300 ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for SAHP
             </p>
           </div>
           </Link>
           <Link href="apps/comms" passHref>
-            <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform transition duration-300 ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for Dispatch
             </p>
           </div>
           </Link>
           <Link href="apps/staff" passHref>
-            <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform transition duration-300 ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+            <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for Staff
             </p>
           </div>
           </Link>
           <Link href="apps/civ" passHref>
-          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform transition duration-300 ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for Civilian
             </p>
           </div>
           </Link>
           <Link href="apps/dev" passHref>
-          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform transition duration-300 ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
+          <div className="cursor-pointer px-10 py-20 text-center transition duration-300 transform ease-in-out dark:bg-gray-800 bg-gray-500 rounded shadow-2xl hover:scale-105 md:shadow-xl hover:shadow-2xl">
             <p className="font-semibold text-gray-200">
             Apply for Developer
             </p>
