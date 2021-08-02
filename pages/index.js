@@ -2,14 +2,16 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import getConfig from 'next/config'
 
 
 export default function Home() {
+    const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
   return (
     <div>
       <Head>
-        <title>HOME | ESX</title>
-        <meta name="description" content="change me" />
+        <title>HOME |  {`${publicRuntimeConfig.serverName}`}</title>
+        <meta name="description" content="Welcome to our website! We hope you enjoy your visit and take advantage of the many perks we offer! These include, applications, descriptions of our departments and our discord invite!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
