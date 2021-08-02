@@ -1,11 +1,13 @@
 import getConfig from 'next/config'
 import Link from 'next/link'
 import { useState } from 'react'
+import App from './App'
 
 
 export const Navbar = () => {
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
+  const { publicRuntimeConfig } = getConfig()
   return (
     <div className="bg-gray-900 z-50 h-auto">
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -20,14 +22,14 @@ export const Navbar = () => {
         <ul className=" items-center hidden space-x-8 lg:flex">
           <li className="text-white">
             
-          <Link
-              href="/applications"
+          <Link href="/applications"
               aria-label="Applications"
               title="Applications"
-              className="font-medium tracking-wide transition-colors duration-200 hover:text-teal-accent-400"
               passHref
             >
-              Applications
+              <button className="btn btn-ghost"> 
+              Applications 
+              </button>
             </Link>
           </li>
           <li className="text-white">
@@ -35,9 +37,11 @@ export const Navbar = () => {
               href="/about"
               aria-label="About us"
               title="About us"
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              passHref
             >
-              About us
+              <button className="btn btn-ghost"> 
+              About us 
+              </button>
             </Link>
           </li>
           <li className="text-white">
@@ -45,9 +49,11 @@ export const Navbar = () => {
               href="/departments"
               aria-label="Departments"
               title="Departments"
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              passHref
             >
-              Departments
+              <button className="btn btn-ghost">
+                Departments 
+              </button>
             </Link>
           </li>
           <li className="text-white">
@@ -55,9 +61,11 @@ export const Navbar = () => {
               href={`${publicRuntimeConfig.discordLink}`}
               aria-label="discord"
               title="discord"
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              passHref
             >
-              Discord
+              <button className="btn btn-ghost">
+                Discord 
+              </button>
             </Link>
           </li>
           <li className="text-white">
@@ -65,10 +73,15 @@ export const Navbar = () => {
               href={`fivem://connect/${publicRuntimeConfig.fivemServerId}`}
               aria-label="Connect"
               title="Connect"
-              className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              passHref
             >
-              Connect 
+              <button className="btn btn-ghost">
+                Connect 
+              </button>
             </Link>
+          </li>
+          <li>
+            <App/>
           </li>
         </ul>
         <div className="lg:hidden">
@@ -95,20 +108,22 @@ export const Navbar = () => {
           </button>
           {isMenuOpen && (
             <div className="absolute top-0 left-0 w-full">
-              <div className="p-5 bg-gray-900 border rounded shadow-sm">
-                <div className="flex items-center justify-between mb-4">
+              <div className="p-10 bg-gray-900 border border-gray-400 rounded shadow-sm">
+                <div className="flex items-center justify-between">
                   <div>
                     <button
                       aria-label="Close Menu"
                       title="Close Menu"
-                      className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                      className="p-2 -mt-2 -mr-2 transition duration-500 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
+                      
                         <path
                           fill="currentColor"
-                          d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
+                          d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.2z"
                         />
+                        
                       </svg>
                     </button>
                   </div>
@@ -120,9 +135,11 @@ export const Navbar = () => {
                         href="/applications"
                         aria-label="Applications"
                         title="Applications"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        passHref
                       >
-                        Applications
+                        <button className="btn btn-block">
+                          Applications
+                        </button>
                       </Link>
                     </li>
                     <li className="text-white">
@@ -130,9 +147,11 @@ export const Navbar = () => {
                         href="/about"
                         aria-label="About us"
                         title="About us"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        passHref
                       >
-                        About us
+                        <button className="btn btn-block">
+                          About us
+                        </button>
                       </Link>
                     </li>
                     <li className="text-white">
@@ -140,30 +159,39 @@ export const Navbar = () => {
                         href="/departments"
                         aria-label="Departments"
                         title="Departments"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        passHref
                       >
-                        Departments
-                      </Link>
+                        <button className="btn btn-block">
+                          Departments
+                        </button>
+                        </Link>
                     </li>
                     <li className="text-white">
                       <Link
                         href={`${publicRuntimeConfig.discordLink}`}
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         aria-label="Discord"
                         title="Discord"
+                        passHref
                       >
-                        Discord
+                        <button className="btn btn-block">
+                          Discord
+                        </button>
                       </Link>
                     </li>
                     <li className="text-white">
                       <Link
                         href={`fivem://connect/${publicRuntimeConfig.fivemServerId}`}
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         aria-label="Connect"
                         title="Connect"
+                        passHref
                       >
-                        Connect
+                        <button className="btn btn-block">
+                          Connect
+                        </button>
                       </Link>
+                    </li>
+                    <li>
+                      <App />
                     </li>
                   </ul>
                 </nav>
