@@ -1,37 +1,38 @@
+import getConfig from 'next/config'
 import Link from 'next/link'
 import { useState } from 'react'
-const name = "joemama"
-const discord = "https://discord.gg/YXa8AUW7Sf"
-const fivem = "fivem://connect/vjarme" 
+
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const { serverRuntimeConfig, publicRuntimeConfig } = getConfig()
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 z-50 h-auto">
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
-        <Link href="/" aria-label="Company" className=" inline-flex items-center" passHref > 
+        <Link href="/" aria-label="home" className=" inline-flex items-center" passHref > 
         <div>
           <span className="cursor-pointer ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-            {name}
-          </span></div> 
+          {publicRuntimeConfig.serverName}
+          </span>
+          </div> 
         </Link>
         <ul className=" items-center hidden space-x-8 lg:flex">
           <li className="text-white">
             
           <Link
-              href="applications"
+              href="/applications"
               aria-label="Applications"
               title="Applications"
               className="font-medium tracking-wide transition-colors duration-200 hover:text-teal-accent-400"
+              passHref
             >
               Applications
             </Link>
           </li>
           <li className="text-white">
           <Link
-              href="about"
+              href="/about"
               aria-label="About us"
               title="About us"
               className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -41,7 +42,7 @@ export const Navbar = () => {
           </li>
           <li className="text-white">
             <Link
-              href="departments"
+              href="/departments"
               aria-label="Departments"
               title="Departments"
               className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -51,7 +52,7 @@ export const Navbar = () => {
           </li>
           <li className="text-white">
             <Link
-              href={discord}
+              href={`${publicRuntimeConfig.discordLink}`}
               aria-label="discord"
               title="discord"
               className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -61,7 +62,7 @@ export const Navbar = () => {
           </li>
           <li className="text-white">
             <Link
-              href={fivem}
+              href={`fivem://connect/${publicRuntimeConfig.fivemServerId}`}
               aria-label="Connect"
               title="Connect"
               className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
@@ -119,7 +120,7 @@ export const Navbar = () => {
                   <ul className="space-y-4">
                     <li className="text-white">
                       <Link
-                        href="applications"
+                        href="/applications"
                         aria-label="Applications"
                         title="Applications"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -129,7 +130,7 @@ export const Navbar = () => {
                     </li>
                     <li className="text-white">
                       <Link
-                        href="about"
+                        href="/about"
                         aria-label="About us"
                         title="About us"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -139,7 +140,7 @@ export const Navbar = () => {
                     </li>
                     <li className="text-white">
                       <Link
-                        href="departments"
+                        href="/departments"
                         aria-label="Departments"
                         title="Departments"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -149,7 +150,7 @@ export const Navbar = () => {
                     </li>
                     <li className="text-white">
                       <Link
-                        href={discord}
+                        href={`${publicRuntimeConfig.discordLink}`}
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         aria-label="Discord"
                         title="Discord"
@@ -159,7 +160,7 @@ export const Navbar = () => {
                     </li>
                     <li className="text-white">
                       <Link
-                        href={fivem}
+                        href={`fivem://connect/${publicRuntimeConfig.fivemServerId}`}
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         aria-label="Connect"
                         title="Connect"
