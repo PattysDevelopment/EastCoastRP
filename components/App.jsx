@@ -14,9 +14,11 @@ function App() {
     }
   }
   return (
-    <div className="App btn btn-block">
-      <div className=" flex ">
-        <button onClick={toggleMode} className=" p-2 text-white rounded ">Dark Mode</button>
+    <div className="App">
+      <div className="flex">
+        <button onClick={toggleMode} className="btn btn-block p-2 text-white rounded ">
+          Dark Mode
+          </button>
       </div>
     </div>
   );

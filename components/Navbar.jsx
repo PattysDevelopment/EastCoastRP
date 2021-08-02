@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { publicRuntimeConfig } = getConfig()
   return (
-    <div className="bg-gray-700 dark:bg-gray-900 z-50 h-auto">
+    <div className="transition duration-300 ease-in-out bg-gray-700 dark:bg-gray-900 z-50 h-auto">
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
         <Link href="/" aria-label="home" className=" inline-flex items-center" passHref > 

@@ -4,12 +4,12 @@ import Link from 'next/link'
 const Footer = () => {
   const { publicRuntimeConfig } = getConfig()
   return (
-<footer className="bg-gray-700 dark:text-gray-400 dark:bg-gray-900 body-font  flex-col  ">
+<footer className="transition duration-300 ease-in-out bg-gray-700 dark:text-gray-400 dark:bg-gray-900 body-font  flex-col  ">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col" > 
     <Link href="/"className="cursor-pointer flex title-font font-medium items-center md:justify-start justify-center text-white" passHref >
       <span className="cursor-pointer ml-3 text-xl uppercase">{publicRuntimeConfig.fullServerName}</span>
     </Link>
-    <p className="text-sm dark:text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"> Made with ❤ by - © 2021 SaltySea
+    <p className="text-sm dark:text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4"> Made with ❤ by SaltySea
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a href={`${publicRuntimeConfig.facebook}`} className="dark:text-gray-400">
