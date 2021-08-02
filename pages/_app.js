@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   <div>
     <Head>   
     </Head>
-    <main className="mb-auto h-auto bg-gray-800">
+    <main className="mb-auto overflow-auto bg-gray-100  dark:bg-gray-800">
       <Layout>
         <Component {...pageProps} />
       </Layout>

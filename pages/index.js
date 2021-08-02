@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
 <div>
-<header className="bg-gray-800">
+<header className="bg-gray-100 dark:bg-gray-800">
 
 
         <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-128 lg:py-16 lg:flex-row lg:items-center lg:space-x-6">
