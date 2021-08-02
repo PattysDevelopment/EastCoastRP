@@ -14,7 +14,7 @@ export default function Departments() {
       </Head>
 
     <div>
-    <section className="text-blueGray-700">
+    <section className="text-blueGray-700 ">
             <div className="container items-center px-5 py-8 mx-auto lg:px-16">
               <div className="flex flex-wrap mb-12 text-left">
                 <div className="w-full p-6 mx-auto lg:w-1/3">
