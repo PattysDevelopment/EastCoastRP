@@ -1,6 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
 import getConfig from 'next/config'
 
@@ -75,10 +73,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-    
-            <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-                <Image className="object-cover w-full h-full max-w-2xl rounded-md" src="https://hamy.fileglass.com/14i2h.webp" width="1050" height="640" alt="picture of the fivem server"></Image>
-            </div>
+            <div className="flex items-center justify-center w-full h-96 p-8 lg:w-1/2">
+            <Image className="object-cover w-full h-full  max-w-2xl rounded-md" placeholder="blur" blurDataURL="./loading.png" src="https://i.file.glass/14i2h.webp" width="1050" height="640" alt="picture of the fivem server"></Image>
+                 </div>
         </div>
     </header>
     </div>
