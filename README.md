@@ -23,4 +23,5 @@ It is recommended to use [vercel for hosting](https://vercel.com/)
  - [ ] Improve the SEO
  - [ ] Add **ALL** The meta tags
 
+# If you wish to contribute funds you can do so [here](https://saltysea.tebex.io/package/4609865) 
 	
