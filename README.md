@@ -1,18 +1,26 @@
+# Welcome to SaltySea's RP Website
 
-# How To Setup Links
-  
-1. Go-to the [Navbar file](./components/navbar.jsx)
+## This project was made open source with the hopes of it being improved by the community.
 
-2. Go-to the top of the file and enter your information into the fields
+# How to install
+It is recommended to use [vercel for hosting](https://vercel.com/)
 
-3. Video Example: 
+1. Fork this [repository](https://github.com/Hamy-os/rpsite)
+2. Open [vercel dashboard](https://vercel.com/new)
+3. Click continue with github
+4. Complete the login
+5. Click the button labeled import
+6. Click skip on the top 
+7. Click deploy in the second window and wait	
+8. Your done!
 
-# How To Set Server Name
+# Todo:
 
-1. Go-to the [Navbar file](./components/navbar.jsx)
+ - [ ] Make the page a PWA
+ - [ ] Add live server stats
+ - [ ] Make this readme ✨Pretty✨
+ - [ ] Add a form system with discord webhooks
+ - [ ] Improve the SEO
+ - [ ] Add **ALL** The meta tags
 
-2. Go-to Line 15 and put the acronym for your server name
-  
-3. Go-to the [Footer file](./components/footer.jsx)
-
-4. Go-to Line 9 and put your full server name
+	
