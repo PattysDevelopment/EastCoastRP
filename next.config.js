@@ -22,7 +22,7 @@ module.exports = {
     staffApp: "",
     sahpApp: "",
     safrApp: "",
-    bannerLink: "https://cdn.discordapp.com/attachments/966784623369658448/976143324991852554/LOGO2.png",
+    bannerLink: "https://cdn.discordapp.com/attachments/969777717685915669/975956056368885790/image0.jpg",
     ownerName: "Trey6s",
     aboutText: "East Coast RP is a Miami Based Semi-Economy Fivem Server.",
     serverDescription: "None",
